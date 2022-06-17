@@ -1,0 +1,105 @@
+
+/* all */
+* { 
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Beyno";
+    src: url("../Fonts/BEYNO/BEYNO.ttf");
+}
+
+@font-face {
+    font-family: "Cantarell";
+    src: url("../Fonts/Cantarell/Cantarell-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Wakanda Forever";
+    src: url("../Fonts/WakandaForever-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Panthera";
+    src: url("../Fonts/PantheraRegular-MVZ9J.ttf");
+}
+body {
+    background-image: url("../IllustrationsLogo/Allpages/arrière_plan.png");
+    color: white;
+}
+/* all */
+
+/* here begins the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px; 
+    margin-top: 50px; 
+}
+
+.texteheader a {
+    text-decoration: none;
+    color: white; 
+}
+.texteheader {
+    display: flex;
+    flex-direction: row;
+    gap: 50px; 
+    font-family: "Beyno";
+}
+
+.texteheader a:hover {
+    text-decoration: underline;
+    color: #DF99F2; 
+}
+/* here stops the header */
+
+/* let's  put the aside here */
+.asideleft {
+    position: absolute; 
+    display: flex;
+    flex-direction: column;
+    color: #DF99F2; 
+}
+/*here stops the aside section */
+
+/* BLACK PANTHER WAKANDA FOREVER and IMAGE */
+.textfirstbloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+.textewakanda {
+    width: 370px; 
+    flex-grow: 5px;
+}
+.grandtitre {
+    font-family: "Panthera";
+    font-size: 68px; 
+    color: #DF99F2; 
+}
+
+.petittitre {
+    font-family: "Beyno";
+    color: #DF99F2; 
+}
+
+.paragraphe {
+    width: 100%;
+    font-family: "Cantarell";
+    font-size: 16px; 
+}
+.paragraphe a {
+    color: white; 
+}
+
+.imagewakanda img {
+    height: auto;
+    width: 700px; 
+}
+/* BLACK PANTHER WAKANDA FOREVER and IMAGE end here */

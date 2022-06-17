@@ -1,0 +1,73 @@
+
+/* all */
+* { 
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Beyno";
+    src: url("../Fonts/BEYNO/BEYNO.ttf");
+}
+
+@font-face {
+    font-family: "Cantarell";
+    src: url("../Fonts/Cantarell/Cantarell-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Wakanda Forever";
+    src: url("../Fonts/WakandaForever-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Panthera";
+    src: url("../Fonts/PantheraRegular-MVZ9J.ttf");
+}
+body {
+    background-image: url("../IllustrationsLogo/Allpages/arrière_plan.png");
+    color: white;
+}
+/* all */
+
+/* here begins the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px; 
+    margin-top: 50px; 
+}
+
+.texteheader a {
+    text-decoration: none;
+    color: white; 
+}
+.texteheader {
+    display: flex;
+    flex-direction: row;
+    gap: 50px; 
+    font-family: "Beyno";
+}
+
+.texteheader a:hover {
+    text-decoration: underline;
+    color: #DF99F2; 
+}
+/* here stops the header */
+
+/* here begins the first part */
+.releveledefi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imageenigme {
+    height: auto;
+    width: 150%; 
+}
+
+.paragraphe {
+    position: absolute;
+
+}
